@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chess Table Maker</title>
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/columns.css">
+    <link rel="stylesheet" href="./styles/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to ChessBoard maker!</h1>
+        <h2 class="table-params">Please define your table parameters:</h2>
+        <h2 class="table-created">Table Created!<h2>
+    </header>
+    <main>
+        <div class="row">
+            <label class="table-params" for="table-row"> How many rows do you want in your table?</label>
+            <input type="text" class="table-row table-params" placeholder="Please enter a number">
+        </div>
+        <div class="row">
+            <label class="table-params" for="table-column"> How many columns do you want in your table?</label>
+            <input type="text" class="table-column table-params" placeholder="Please enter a number">
+        </div>
+        <div class="row">
+            <button action="create-chessboard">Create Table</button>
+            <button action="restart">Restart</button>
+
+        </div>
+    </main>
+</body>
+    <script src="./3rd_append.js"></script>
+</html>

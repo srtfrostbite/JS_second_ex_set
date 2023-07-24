@@ -1,0 +1,63 @@
+/* ************** Global Variables ************** */
+
+/* :root {
+    --primary-color: #65c0ba;
+    --gutter: 32px;
+    --section-padding: 20px 0;
+    --container-margin: 20px auto;
+    --text-color: #6c757d;
+
+} */
+
+
+
+/* ************** Body & General ************** */
+
+
+body {
+    font-family: 'Mukta Mahee', sans-serif;
+    padding: 50px;
+}
+
+header {
+    margin: 50px auto;
+}
+
+h1,
+h2,
+h3,
+h4 {
+   font-family: 'Abril Fatface', cursive;
+}
+
+/* h1 {
+    font-size: 84px;
+    
+
+} */
+
+h1 {
+    font-size: 32px;
+    text-transform: capitalize;
+    line-height: 8rem;
+
+}
+
+h2 {
+    font-size: 20px;
+    text-transform: capitalize;
+    /* line-height: 4rem; */
+}
+
+
+p {
+    line-height: 2rem;
+}
+
+.row {
+    padding-bottom: 15px;
+}
+
+label {
+    margin-right: 20px;
+}
